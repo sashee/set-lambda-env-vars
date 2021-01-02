@@ -1,0 +1,34 @@
+{
+  "name": "set-lambda-env-vars",
+  "version": "1.0.0",
+  "description": "Set environment variables from a live Lambda function",
+  "keywords": [
+    "aws",
+    "lambda",
+    "development tools"
+  ],
+  "main": "index.js",
+  "bin": {
+    "set-lambda-env-vars": "bin/set-lambda-env-vars"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github:sashee/set-lambda-env-vars",
+  "author": {
+    "name": "Tamas Sallai",
+    "url": "https://advancedweb.hu/"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "aws-arn": "^1.0.1",
+    "aws-sdk": "^2.820.0",
+    "esm": "^3.2.25",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
+    "nanoid": "^3.1.20",
+    "node-uri": "^1.1.1",
+    "promise-retry": "^2.0.1",
+    "yargs": "^16.2.0"
+  }
+}
