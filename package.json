@@ -1,6 +1,6 @@
 {
   "name": "set-lambda-env-vars",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Set environment variables from a live Lambda function",
   "keywords": [
     "aws",
